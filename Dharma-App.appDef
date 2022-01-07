@@ -255,6 +255,10 @@
       <feature name="bc-allow-share-video" value="false"/>
     </features>
 
+    <epub>
+      <cover-filename>D:\Scripture App Builder\triple Language app\images\statue-of-buddha-inside-mahabodhi-temple-reinhard-goldmann.jpg</cover-filename>
+    </epub>
+
     <metadata>
       <meta name="copyright-text" content="© ITBSI 2022"/>
     </metadata>
@@ -266,6 +270,7 @@
       <text-direction value="LTR"/>
       <numeral-system value="Default"/>
       <verse-number-style value="default"/>
+      <language-code value="bo"/>
 
       <styles>
         <style name="div.footer">
@@ -356,8 +361,8 @@
   </books>
 
   <books id="C03">
-    <book-collection-name>རྒྱ་སྐད།</book-collection-name>
-    <book-collection-abbrev>རྒྱ་སྐད།</book-collection-abbrev>
+    <book-collection-name>Chinese Version</book-collection-name>
+    <book-collection-abbrev>Chinese</book-collection-abbrev>
     <book-collection-description></book-collection-description>
 
     <features type="bc">
@@ -370,7 +375,7 @@
       <feature name="ref-chapter-list-separator" value=";"/>
       <feature name="ref-extra-material" value=""/>
       <feature name="numerals-type" value="default"/>
-      <feature name="bc-allow-single-pane" value="true"/>
+      <feature name="bc-allow-single-pane" value="false"/>
       <feature name="bc-allow-copy-text" value="true"/>
       <feature name="bc-allow-long-press-select" value="true"/>
       <feature name="bc-allow-share-text" value="true"/>
@@ -392,11 +397,6 @@
       <text-direction value="LTR"/>
       <numeral-system value="Default"/>
       <verse-number-style value="default"/>
-
-      <styles>
-        <style name="div.footer">
-        </style>
-      </styles>
     </styles-info>
 
     <writing-system code="CN">
@@ -406,10 +406,10 @@
     </writing-system>
 
     <book id="B001">
-      <name>རྒྱ་སྐད།</name>
-      <abbrev>རྒྱ་སྐད།</abbrev>
-      <filename>Chinese - Pro.txt</filename>
-      <source>D:\Scripture App Builder\triple Language app\pre-test files\Chinese - Pro.txt</source>
+      <name>Chinese Version</name>
+      <abbrev>Chinese</abbrev>
+      <filename>Chinese.txt</filename>
+      <source>D:\Scripture App Builder\triple Language app\pre-test files\Chinese.txt</source>
 
       <features type="book">
         <feature name="show-chapter-numbers" value="inherit"/>
@@ -481,6 +481,15 @@
           <form lang="ta">ஆங்கிலம்</form>
         </display-names>
         <font-family>system</font-family>
+        <trait name="text-direction" value="LTR"/>
+      </writing-system>
+
+      <writing-system code="bo" type="interface">
+        <display-names>
+          <form lang="en">Tibetan</form>
+        </display-names>
+        <font-family>system</font-family>
+        <trait name="font-relative-size" value="90"/>
         <trait name="text-direction" value="LTR"/>
       </writing-system>
 
@@ -864,15 +873,6 @@
           <form lang="nl">Maleis</form>
         </display-names>
         <font-family>system</font-family>
-        <trait name="text-direction" value="LTR"/>
-      </writing-system>
-
-      <writing-system code="bo" type="interface">
-        <display-names>
-          <form lang="en">Tibetan</form>
-        </display-names>
-        <font-family>system</font-family>
-        <trait name="font-relative-size" value="90"/>
         <trait name="text-direction" value="LTR"/>
       </writing-system>
     </writing-systems>
