@@ -375,7 +375,7 @@
       <feature name="ref-chapter-list-separator" value=";"/>
       <feature name="ref-extra-material" value=""/>
       <feature name="numerals-type" value="default"/>
-      <feature name="bc-allow-single-pane" value="false"/>
+      <feature name="bc-allow-single-pane" value="true"/>
       <feature name="bc-allow-copy-text" value="true"/>
       <feature name="bc-allow-long-press-select" value="true"/>
       <feature name="bc-allow-share-text" value="true"/>
