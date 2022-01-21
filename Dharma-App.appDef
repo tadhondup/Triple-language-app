@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<app-definition type="SAB" program-version="9.1.1">
+<app-definition type="SAB" program-version="9.2.1">
   <project-name>Dharma-App</project-name>
   <project-description></project-description>
 
@@ -144,6 +144,9 @@
     <feature name="text-on-image-watermark-width" value="20"/>
     <feature name="text-on-image-watermark-margin" value="1"/>
     <feature name="text-on-image-watermark-position" value="bottom-right"/>
+    <feature name="layout-config-change-nav-drawer-menu" value="true"/>
+    <feature name="layout-config-change-toolbar-button" value="true"/>
+    <feature name="layout-config-change-viewer-button" value="true"/>
     <feature name="layout-config-first-launch" value="false"/>
     <feature name="settings-app-layout-direction" value="false"/>
     <feature name="settings-audio-download-mode" value="true"/>
@@ -236,7 +239,6 @@
 
     <features type="bc">
       <feature name="show-scripture-refs" value="true"/>
-      <feature name="layout-show-config-button" value="true"/>
       <feature name="ref-chapter-verse-separator" value=":"/>
       <feature name="ref-verse-range-separator" value="-"/>
       <feature name="ref-verse-list-separator" value=","/>
@@ -253,6 +255,7 @@
       <feature name="bc-allow-verse-of-the-day" value="true"/>
       <feature name="bc-allow-share-audio" value="false"/>
       <feature name="bc-allow-share-video" value="false"/>
+      <feature name="layout-show-config-button" value="true"/>
     </features>
 
     <epub>
@@ -304,7 +307,6 @@
 
     <features type="bc">
       <feature name="show-scripture-refs" value="true"/>
-      <feature name="layout-show-config-button" value="true"/>
       <feature name="ref-chapter-verse-separator" value=":"/>
       <feature name="ref-verse-range-separator" value="-"/>
       <feature name="ref-verse-list-separator" value=","/>
@@ -321,6 +323,7 @@
       <feature name="bc-allow-verse-of-the-day" value="true"/>
       <feature name="bc-allow-share-audio" value="false"/>
       <feature name="bc-allow-share-video" value="false"/>
+      <feature name="layout-show-config-button" value="true"/>
     </features>
 
     <metadata>
@@ -367,7 +370,6 @@
 
     <features type="bc">
       <feature name="show-scripture-refs" value="true"/>
-      <feature name="layout-show-config-button" value="true"/>
       <feature name="ref-chapter-verse-separator" value=":"/>
       <feature name="ref-verse-range-separator" value="-"/>
       <feature name="ref-verse-list-separator" value=","/>
@@ -384,6 +386,7 @@
       <feature name="bc-allow-verse-of-the-day" value="true"/>
       <feature name="bc-allow-share-audio" value="false"/>
       <feature name="bc-allow-share-video" value="false"/>
+      <feature name="layout-show-config-button" value="true"/>
     </features>
 
     <metadata>
@@ -569,6 +572,7 @@
           <form lang="en">Dutch</form>
           <form lang="fr">Néerlandais</form>
           <form lang="nl">Nederlands</form>
+          <form lang="ru">Голландский</form>
         </display-names>
         <font-family>system</font-family>
         <trait name="text-direction" value="LTR"/>
@@ -1074,6 +1078,7 @@
       <translation lang="ar">التنزيلات</translation>
       <translation lang="nl">Downloads</translation>
       <translation lang="ta">பதிவிறக்கங்கள்</translation>
+      <translation lang="ru">Загрузки</translation>
       <translation lang="bo">ཕབ་ལེན།</translation>
     </translation-mapping>
     <translation-mapping id="Menu_Edit">
@@ -1153,6 +1158,8 @@
     </translation-mapping>
     <translation-mapping id="Menu_Reset_Contents">
       <translation lang="en">Reset Contents</translation>
+      <translation lang="fr">Réinitialiser le contenu</translation>
+      <translation lang="ru">Сбросить настройки содержания</translation>
       <translation lang="bo">ནང་དོན་བསྐྱར་སྒྲིག</translation>
     </translation-mapping>
     <translation-mapping id="Menu_Item_Copy">
@@ -1163,6 +1170,7 @@
       <translation lang="ar">نسخ</translation>
       <translation lang="nl">Kopiëren</translation>
       <translation lang="ta">நகல் எடு</translation>
+      <translation lang="ru">Копировать</translation>
       <translation lang="bo">ངོ་བཤུ།</translation>
     </translation-mapping>
     <translation-mapping id="Menu_Item_Share">
@@ -1174,6 +1182,7 @@
       <translation lang="ar">مشاركة</translation>
       <translation lang="nl">Delen</translation>
       <translation lang="ta">பகிர்</translation>
+      <translation lang="ru">Поделиться</translation>
       <translation lang="bo">བརྒྱུད་སྐུར།</translation>
     </translation-mapping>
     <translation-mapping id="Menu_Item_Image">
@@ -1184,6 +1193,7 @@
       <translation lang="ar">صورة</translation>
       <translation lang="nl">Afbeelding</translation>
       <translation lang="ta">நிழற்படம்</translation>
+      <translation lang="ru">Картинка</translation>
       <translation lang="bo">འདྲ་པར།</translation>
     </translation-mapping>
     <translation-mapping id="Annotation_Bookmarks">
@@ -1600,6 +1610,7 @@
       <translation lang="ar">مشاركة</translation>
       <translation lang="nl">Delen</translation>
       <translation lang="ta">பகிர்</translation>
+      <translation lang="ru">Поделиться</translation>
       <translation lang="bo">བརྒྱུད་སྐུར།</translation>
     </translation-mapping>
     <translation-mapping id="Button_Start">
@@ -1670,6 +1681,7 @@
       <translation lang="ar">قراءة</translation>
       <translation lang="nl">Lezen</translation>
       <translation lang="ta">படிக்க</translation>
+      <translation lang="ru">Читать</translation>
       <translation lang="bo">ཀློག</translation>
     </translation-mapping>
     <translation-mapping id="Button_Listen">
@@ -1681,6 +1693,7 @@
       <translation lang="ar">إستماع</translation>
       <translation lang="nl">Luisteren</translation>
       <translation lang="ta">கேட்க</translation>
+      <translation lang="ru">Слушать</translation>
       <translation lang="bo">ཉན།</translation>
     </translation-mapping>
     <translation-mapping id="Button_Create_Image">
@@ -1692,7 +1705,26 @@
       <translation lang="ar">إنشاء صورة</translation>
       <translation lang="nl">Afbeelding maken</translation>
       <translation lang="ta">வசனப்படம் செய்</translation>
+      <translation lang="ru">Фотоцитата</translation>
       <translation lang="bo">འདྲ་པར་བཟོ།</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Play">
+      <translation lang="en">Play</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Pause">
+      <translation lang="en">Pause</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Forward">
+      <translation lang="en">Forward</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Back">
+      <translation lang="en">Back</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Forward_Section">
+      <translation lang="en">Forward Section</translation>
+    </translation-mapping>
+    <translation-mapping id="Button_Audio_Back_Section">
+      <translation lang="en">Back Section</translation>
     </translation-mapping>
     <translation-mapping id="Date_Today">
       <translation lang="en">Today</translation>
@@ -2142,6 +2174,7 @@
       <translation lang="ar">مهلة التوصيل لسيرفر الصوت أنتهت</translation>
       <translation lang="nl">Onderbreking</translation>
       <translation lang="ta">இணையத் தொடர்பு சரியாக இயங்கவில்லை.</translation>
+      <translation lang="ru">Время соединения с аудиосервером истекло</translation>
       <translation lang="bo">སྒྲའི་གསོག་སྣོད་ལ་མཐུད་པའི་དུས་ཚོད་ཡོལ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Audio_Downloading">
@@ -2366,11 +2399,13 @@
     <translation-mapping id="App_Downloading_App">
       <translation lang="en">Downloading App...</translation>
       <translation lang="fr">Téléchargement de l&apos;application...</translation>
+      <translation lang="ru">Приложение загружается…</translation>
       <translation lang="bo">མཉེན་ཆས་ཕབ་ལེན་བྱེད་བཞིན་པ་་་</translation>
     </translation-mapping>
     <translation-mapping id="App_File_Error">
       <translation lang="en">Error processing downloaded app</translation>
       <translation lang="fr">Erreur de traitement de l&apos;application téléchargée</translation>
+      <translation lang="ru">При установке загруженного приложения произошла ошибка</translation>
       <translation lang="bo">མཉེན་ཆས་ཕབ་ལེན་ལ་གནད་དོན་བྱུང་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Selector_Book">
@@ -2844,36 +2879,49 @@
     <translation-mapping id="Settings_Display_Images_In_Bible_Text">
       <translation lang="en">Images in Bible text</translation>
       <translation lang="fr">Images dans le texte biblique</translation>
+      <translation lang="es">Imágenes en texto bíblico</translation>
+      <translation lang="ru">Картинки в библейском тексте</translation>
       <translation lang="bo">ཡེ་ཤུའི་གསུང་རབ་ནང་གི་འདྲ་པར་རྣམས།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Videos_In_Bible_Text">
       <translation lang="en">Videos in Bible text</translation>
       <translation lang="fr">Vidéos dans le texte biblique</translation>
+      <translation lang="es">Vídeos en texto bíblico</translation>
+      <translation lang="ru">Видео в библейском тексте</translation>
       <translation lang="bo">ཡེ་ཤུའི་གསུང་རབ་ནང་གི་བརྙན་པར་རྣམས།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Images_Normal">
       <translation lang="en">Show images</translation>
       <translation lang="fr">Montrer les images</translation>
+      <translation lang="es">Mostrar imágenes</translation>
+      <translation lang="ru">Показывать картинки</translation>
       <translation lang="bo">འདྲ་པར་རྣམས་སྟོན།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Images_Hidden">
       <translation lang="en">Hide images</translation>
       <translation lang="fr">Cacher les images</translation>
+      <translation lang="es">Ocultar imágenes</translation>
+      <translation lang="ru">Скрывать картинки</translation>
       <translation lang="bo">འདྲ་པར་རྣམས་སྦེད།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Videos_Normal">
       <translation lang="en">Show normal size</translation>
       <translation lang="fr">Montrer en taille normale</translation>
+      <translation lang="es">Mostrar tamaño normal</translation>
+      <translation lang="ru">Смотреть полномасштабные видео</translation>
       <translation lang="bo">རྒྱུན་ལྡན་གྱི་ཆེ་ཆུང་ལྟར་སྟོན།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Videos_Small">
       <translation lang="en">Show small size</translation>
       <translation lang="fr">Montrer en petite taille</translation>
+      <translation lang="ru">Смотреть видео уменьшенного размера</translation>
       <translation lang="bo">ཆུང་བ་སྟོན།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Display_Videos_Hidden">
       <translation lang="en">Hide videos</translation>
       <translation lang="fr">Cacher les vidéos</translation>
+      <translation lang="es">Ocultar videos</translation>
+      <translation lang="ru">Скрывать видео</translation>
       <translation lang="bo">བརྙན་རྣམས་སྦེད།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Show_Border">
@@ -3248,6 +3296,7 @@
       <translation lang="ar">تنزيل أو بث الصوت</translation>
       <translation lang="nl">Geluidsbestand downloaden of streamen</translation>
       <translation lang="ta">ஒலிவடிவ வசன பதிவிறக்கம் (அ) இயக்கம்</translation>
+      <translation lang="ru">Загружать аудиофайлы или слушать потоковое аудио</translation>
       <translation lang="bo">སྒྲ་ཕབ་ལེན་བྱེད་དམ། ཡང་ན་སྒྲ་མུ་མཐུད་ནས་</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Audio_Access_Method_Download">
@@ -3257,6 +3306,7 @@
       <translation lang="ar">تنزيل ملفات الصوت</translation>
       <translation lang="nl">Geluidsbestanden downloaden</translation>
       <translation lang="ta">பதிவிறக்க முறையில்</translation>
+      <translation lang="ru">Загружать аудиофайлы</translation>
       <translation lang="bo">སྒྲ་ཕབ་ལེན།</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Audio_Access_Method_Stream">
@@ -3266,6 +3316,7 @@
       <translation lang="ar">جريان ملفات الصوت</translation>
       <translation lang="nl">Geluidsbestanden streamen</translation>
       <translation lang="ta">இயக்க முறையில்</translation>
+      <translation lang="ru">Слушать потоковое аудио</translation>
       <translation lang="bo">སྒྲ་མུ་མཐུད་ནས་</translation>
     </translation-mapping>
     <translation-mapping id="Settings_Audio_Download_Mode">
@@ -3439,6 +3490,7 @@
       <translation lang="ar">حسابي</translation>
       <translation lang="nl">Mijn account</translation>
       <translation lang="ta">எனது விவரம்</translation>
+      <translation lang="ru">Мой аккаунт</translation>
       <translation lang="bo">ངའི་ཐོ་གཞུང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_In_Title">
@@ -3448,6 +3500,7 @@
       <translation lang="ar">الدخول لحسابي</translation>
       <translation lang="nl">Inlognaam</translation>
       <translation lang="ta">உள்ளே செல்தல்</translation>
+      <translation lang="ru">Авторизация</translation>
       <translation lang="bo">ནང་འཛུལ་བྱོས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_In_Button">
@@ -3457,6 +3510,7 @@
       <translation lang="ar">الدخول لحسابي</translation>
       <translation lang="nl">Inloggen</translation>
       <translation lang="ta">உட்புகு</translation>
+      <translation lang="ru">Авторизоваться</translation>
       <translation lang="bo">ནང་འཛུལ་བྱོས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_Up_Title">
@@ -3466,6 +3520,7 @@
       <translation lang="ar">تسجيل حساب</translation>
       <translation lang="nl">Inschrijfnaam</translation>
       <translation lang="ta">பதிந்து கொள்தல்</translation>
+      <translation lang="ru">Регистрация</translation>
       <translation lang="bo">ཐོ་གཞུང་གསར་བཟོ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_Up_Button">
@@ -3474,6 +3529,7 @@
       <translation lang="id">Daftar</translation>
       <translation lang="nl">Inschrijven</translation>
       <translation lang="ta">பதியவும்</translation>
+      <translation lang="ru">Зарегистрироваться</translation>
       <translation lang="bo">ཐོ་གཞུང་གསར་བཟོ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_Out_Button">
@@ -3483,11 +3539,13 @@
       <translation lang="ar">تسجيل حساب</translation>
       <translation lang="nl">Uitloggen</translation>
       <translation lang="ta">வெளியேறு</translation>
+      <translation lang="ru">Выйти</translation>
       <translation lang="bo">ཕྱིར་ཐོན།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Sign_Out_Button_Confirmation">
       <translation lang="en">Do you want to sign out?\n\nAny new highlights, notes and bookmarks will not be saved to your account.</translation>
       <translation lang="fr">Voulez-vous vous déconnecter ?\n\nLes nouveaux surlignements, notes et signets ne seront pas enregistrés sur votre compte.</translation>
+      <translation lang="ru">Вы хотите завершить сессию?\n\n Внесённые изменения, заметки и закладки не сохранятся в вашем аккаунте.</translation>
       <translation lang="bo">ཁྱེད་རང་ཕྱིར་ཐོན་བྱ་རྒྱུ་ཡིན་ནམ།\n\n ཁྱེད་ཀྱི་ཁ་བྱང་ནང་མཆན་བཏབ་པ་དང་འདེམས་རྟགས་བརྒྱབ་པ། དཔེ་རྟགས་གསར་བ་བཀོད་པའི་རིགས་གཅིག་ཀྱང་ཉར་ཚགས་མི་བྱེད།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Full_Name">
@@ -3497,6 +3555,7 @@
       <translation lang="ar">الاسم بالكامل</translation>
       <translation lang="nl">Volledige naam</translation>
       <translation lang="ta">முழுபெயர்</translation>
+      <translation lang="ru">Полное имя</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་མིང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Email_Address">
@@ -3506,6 +3565,7 @@
       <translation lang="ar">عنوان البريد الإلكتروني</translation>
       <translation lang="nl">Emailadres</translation>
       <translation lang="ta">மின்னஞ்சல்</translation>
+      <translation lang="ru">Адрес электронной почты</translation>
       <translation lang="bo">གློག་འཕྲིན་ཁ་བྱང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Password">
@@ -3515,6 +3575,7 @@
       <translation lang="ar">كلمة المرور</translation>
       <translation lang="nl">Wachtwoord</translation>
       <translation lang="ta">கடவுச்சொல்</translation>
+      <translation lang="ru">Пароль</translation>
       <translation lang="bo">གསང་ཚིག</translation>
     </translation-mapping>
     <translation-mapping id="Account_Confirm_Password">
@@ -3524,6 +3585,7 @@
       <translation lang="ar">تأكيد كلمة المرور</translation>
       <translation lang="nl">Wachtwoord bevestigen</translation>
       <translation lang="ta">கடவுச்சொல்லை உறுதிசெய்</translation>
+      <translation lang="ru">Подтвердите пароль</translation>
       <translation lang="bo">གཏན་འཁེལ་གསང་ཚིག</translation>
     </translation-mapping>
     <translation-mapping id="Account_Forgot_Password">
@@ -3533,11 +3595,13 @@
       <translation lang="ar">هل نسيت كلمة المرور</translation>
       <translation lang="nl">Wachtwoord vergeten?</translation>
       <translation lang="ta">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</translation>
+      <translation lang="ru">Забыли пароль?</translation>
       <translation lang="bo">གསང་ཚིག་བརྗེད་སོང་ངམ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Reset_Password">
       <translation lang="en">Reset Password</translation>
       <translation lang="fr">Réinitialiser mot de passe</translation>
+      <translation lang="ru">Сбросить пароль</translation>
       <translation lang="bo">གསང་ཚིག་བསྐྱར་སྒྲིག</translation>
     </translation-mapping>
     <translation-mapping id="Account_Change_Password">
@@ -3547,6 +3611,7 @@
       <translation lang="ar">تغيير كلمة المرور</translation>
       <translation lang="nl">Wachtwoord veranderen</translation>
       <translation lang="ta">கடவுச்சொல்லை மாற்று</translation>
+      <translation lang="ru">Изменить пароль</translation>
       <translation lang="bo">གསང་ཚིག་བརྗེ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Current_Password">
@@ -3556,6 +3621,7 @@
       <translation lang="ar">كلمة المرور الحالية</translation>
       <translation lang="nl">Huidig wachtwoord</translation>
       <translation lang="ta">தற்போதைய கடவுச்சொல்</translation>
+      <translation lang="ru">Текущий пароль</translation>
       <translation lang="bo">ད་ལྟའི་གསང་ཚིག</translation>
     </translation-mapping>
     <translation-mapping id="Account_New_Password">
@@ -3565,6 +3631,7 @@
       <translation lang="ar">كلمة المرور الجديدة</translation>
       <translation lang="nl">Nieuw wachtwoord</translation>
       <translation lang="ta">புதிய கடவுச்சொல்</translation>
+      <translation lang="ru">Новый пароль</translation>
       <translation lang="bo">གསང་ཚིག་གསར་པ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Confirm_New_Password">
@@ -3574,31 +3641,37 @@
       <translation lang="ar">تأكيد كلمة المرور</translation>
       <translation lang="nl">Nieuw wachtwoord bevestigen</translation>
       <translation lang="ta">புதிய கடவுச்சொல்லை உறுதிசெய்</translation>
+      <translation lang="ru">Подтвердить новый пароль</translation>
       <translation lang="bo">གཏན་འཁེལ་གསང་ཚིག་གསར་པ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Change_Profile">
       <translation lang="en">Change Profile</translation>
       <translation lang="fr">Modifier profil</translation>
+      <translation lang="ru">Изменить профиль</translation>
       <translation lang="bo">གནས་ཚུལ་བསྐྱར་བཅོས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Enter_Password">
       <translation lang="en">Enter Password</translation>
       <translation lang="fr">Saisir mot de passe</translation>
+      <translation lang="ru">Введите пароль</translation>
       <translation lang="bo">གསང་ཚིག་ཞོག</translation>
     </translation-mapping>
     <translation-mapping id="Account_Save_Changes_Button">
       <translation lang="en">Save Changes</translation>
       <translation lang="fr">Enregistrer</translation>
+      <translation lang="ru">Сохранить изменения</translation>
       <translation lang="bo">གསང་ཚིག་ཉོར།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Delete_Account">
       <translation lang="en">Delete Account</translation>
       <translation lang="fr">Supprimer compte</translation>
+      <translation lang="ru">Удалить аккаунт</translation>
       <translation lang="bo">གསང་ཚིག་སུབ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Delete_Account_Confirmation">
       <translation lang="en">Do you want to delete your account?\n\nAll your saved highlights, notes and bookmarks will be deleted.</translation>
       <translation lang="fr">Voulez-vous supprimer votre compte ? Tous les surlignements, notes et signets que vous avez enregistrés seront supprimés.</translation>
+      <translation lang="ru">Вы хотите удалить свой аккаунт?\n\nВсе внесенные вами изменения, заметки и закладки будут удалены.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་ཁ་བྱང་བསུབ་རྒྱུ་ཡིན་ནམ།\n\nཁྱེད་ཀྱིས་ཉར་ཚགས་བྱས་པའི་འདེམ་རྟགས་བརྒྱབ་པ་དང་མཆན་བཏབ་པ། དཔེ་རྟགས་བཀོད་པ་ཚང་མ་བསུབ་འགྲོ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Login_Page_Heading">
@@ -3608,6 +3681,7 @@
       <translation lang="ar">الدخول للحساب أو تسجيل حساب</translation>
       <translation lang="nl">Inloggen</translation>
       <translation lang="ta">உள்ளேபுகு (அ) பதிவு செய்</translation>
+      <translation lang="ru">Авторизоваться или зарегистрироваться</translation>
       <translation lang="bo">ནང་འཛུལ་བྱ་རྒྱུ་ཡིན་ནམ། ཡང་ན་ཐོ་གཞུང་གསར་བཟོ་བྱ་རྒྱུ་ཡིན།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Login_Page_Info">
@@ -3616,6 +3690,7 @@
       <translation lang="id">Anda bisa menyimpan sorotan, catatan, dan bookmark - dan sinkronisasinya dengan perangkat lain.</translation>
       <translation lang="nl">Je kunt hoogtepunten, aantekeningen en bladwijzers opslaan en synchroniseren met andere apparaten.</translation>
       <translation lang="ta">நீங்கள் உங்கள் எடுத்து வைத்த குறிப்புகளையும் மேற்கோள்களையும் மற்றவர்களுடைய சாதனத்திற்கு அனுப்பலாம்</translation>
+      <translation lang="ru">Вы можете сохранять выделение цветом, заметки, закладки и историю и синхронизировать это с другими устройствами.</translation>
       <translation lang="bo">འདེམ་རྟགས་བཀོད་པ་དང་མཆན་བཏབ་པ་དཔེ་རྟགས་བཀོད་པ་བཅས་ཁྱེད་ཀྱིས་ཉར་ཚགས་བྱ་ཐུབ་ཅིང་། དེ་དག་འཕྲུལ་ཆས་གཞན་དང་མཐུད་ཀྱང་ཐུབ་པ་ཡིན།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Logged_In_Page_Info">
@@ -3624,86 +3699,103 @@
       <translation lang="id">Sorotan, catatan dan bookmark Anda akan disimpan di akun Anda ketika tersambung ke internet.</translation>
       <translation lang="nl">Hoogtepunten, aantekeningen en bladwijzers worden bewaard bij internetverbinding.</translation>
       <translation lang="ta">உங்களது சாதனம் இணையத் தொடர்பில் இருக்கும்போது உங்களது குறிப்புகளும் மேற்கோள்களும் வைத்து வைக்கப்படும்</translation>
+      <translation lang="ru">Выделение цветом, заметки, закладки и история будут сохранены в вашем аккаунте при подключении к интернету.</translation>
       <translation lang="bo">ཁྱེད་དྲ་རྒྱ་ལ་མཐུད་དུས་ཁྱེད་ཀྱི་འདེམ་རྟགས་བཀོད་པ་དང་མཆན་བཏབ་པ་དཔེ་རྟགས་བརྒྱབ་པ་དང་བཅས་པ་ཁྱེད་ཀྱི་ཐོ་གཞུང་ནང་ཉར་འགྲོ།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Enter_Name">
       <translation lang="en">Please enter your name.</translation>
       <translation lang="fr">Veuillez saisir votre nom.</translation>
+      <translation lang="ru">Введите, пожалуйста, ваше имя.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་མིང་འབྲི་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Enter_Valid_Email">
       <translation lang="en">Please enter a valid email address.</translation>
       <translation lang="fr">Veuillez entrer une adresse e-mail valide.</translation>
+      <translation lang="ru">Просьба ввести действительный электронный адрес.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་གློག་འཕྲིན་ཚུལ་མཐུན་ཞིག་འཇོག་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Enter_Valid_Password">
       <translation lang="en">Please enter a valid password. Passwords must have at least six characters and can contain letters, numbers and punctuation.</translation>
       <translation lang="fr">Veuillez saisir un mot de passe valide. Les mots de passe doivent comporter au moins six caractères et peuvent contenir des lettres, des chiffres et des signes de ponctuation.</translation>
+      <translation lang="ru">Просьба ввести действительный пароль. Пароль должен быть не короче шести знаков и может содержать буквы, цифры и знаки пунктуации.</translation>
       <translation lang="bo">ཚུལ་མཐུན་གྱི་གསང་ཚིག་ཅིག་འཇོག་རོགས། གསང་ཚིག་ནང་གསལ་བྱེད་དང་ཨང་གྲངས་རྐྱེན་གྱི་ཡི་གེ་བཅས་འདུས་ཡོད་པའི་ཡིག་འབྲུ་ཉུང་མཐར་དྲུག་ངེས་པར་ཡོད་དགོས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Enter_Email_And_Password">
       <translation lang="en">Please enter your email address and password.</translation>
       <translation lang="fr">Veuillez saisir votre adresse e-mail et votre mot de passe.</translation>
+      <translation lang="ru">Просьба ввести электронный адрес и пароль.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་གློག་འཕྲིན་དང་གསང་ཚིག་འཇོག་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Passwords_Not_Matching">
       <translation lang="en">Your password confirmation did not match your new password. Please try again.</translation>
       <translation lang="fr">La confirmation de votre mot de passe ne correspond pas à votre nouveau mot de passe. Veuillez réessayer.</translation>
+      <translation lang="ru">Подтверждённый пароль не совпадает с вашим новым паролем. Попробуйте ещё раз.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་གཏན་འཁེལ་གསང་ཚིག་དེ་ཁྱེད་ཀྱི་གསང་ཚིག་གསར་པ་དང་མཚུངས་མ་སོང་། བསྐྱར་དུ་ཚོད་ལྟ་བྱ་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Incorrect_Email_Password">
       <translation lang="en">Sorry, we cannot find this email address and/or password. Please try again.</translation>
       <translation lang="fr">Désolé, nous ne trouvons pas cette adresse e-mail et/ou ce mot de passe. Veuillez réessayer.</translation>
+      <translation lang="ru">Введённый адрес электронной почты и/или пароль не найдены. Попробуйте ещё раз.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་གློག་འཕྲིན་འདི་དང་/ཡང་ན་གསང་ཚིག་གང་རུང་ཞིག་རྙེད་མ་སོང་། བསྐྱར་དུ་ཚོད་ལྟ་བྱ་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Sign_In_Error">
       <translation lang="en">Sorry, we were unable to sign you in.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu vous connecter.</translation>
+      <translation lang="ru">К сожалению, попытка входа не удалась.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་ཁྱེད་རང་ནང་འཇུག་བྱ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Sign_Up_Error">
       <translation lang="en">Sorry, we were unable to sign you up.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu vous inscrire.</translation>
+      <translation lang="ru">К сожалению, регистрация не прошла.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་ཁྱེད་ཀྱི་ཐོ་གཞུང་གསར་བཟོ་བྱ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Database_Error">
       <translation lang="en">Please report the following database error:</translation>
       <translation lang="fr">Veuillez signaler l&apos;erreur suivante :</translation>
+      <translation lang="ru">Пожалуйста, сообщите об ошибке базы данных:</translation>
       <translation lang="bo">གཤམ་གསལ་གྱི་གཞི་གྲངས་མཛོད་ཀྱི་གནད་དོན་ཡར་ཞུ་བྱ་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Change_Password_Error">
       <translation lang="en">Sorry, we were unable to change your password.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu modifier votre mot de passe.</translation>
+      <translation lang="ru">К сожалению, попытка изменить пароль не удалась.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་ཁྱེད་ཀྱི་གསང་ཚིག་བརྗེ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Change_Profile_Error">
       <translation lang="en">Sorry, we were unable to change your profile.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu modifier votre profil.</translation>
+      <translation lang="ru">К сожалению, попытка изменения профиля не удалась.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་ཁྱེད་ཀྱི་གནས་ཚུལ་བསྒྱུར་བཅོས་བྱ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Check_Internet">
       <translation lang="en">Please check your internet connection.</translation>
       <translation lang="fr">Veuillez vérifier votre connexion Internet.</translation>
+      <translation lang="ru">Проверьте, пожалуйста, ваше соединение с интернетом.</translation>
       <translation lang="bo">ཁྱེད་རང་སྐུད་མེད་དྲ་ལ་མཐུད་ཡོད་མེད་བལྟ་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Reset_Password_Email_Sent">
       <translation lang="en">We have sent you an email to reset your password.</translation>
       <translation lang="fr">Nous vous avons envoyé un courriel pour réinitialiser votre mot de passe.</translation>
+      <translation lang="ru">Мы отправили вам email для изменения вашего пароля.</translation>
       <translation lang="bo">ང་ཚོས་ཁྱེད་ལ་གསང་ཚིག་བསྐྱར་སྒྲིག་བྱ་སའི་གློག་འཕྲིན་ཞིག་བཏང་ཡོད།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Email_Already_In_Use">
       <translation lang="en">This email address is already in use.</translation>
       <translation lang="fr">Cette adresse e-mail est déjà utilisée.</translation>
+      <translation lang="ru">Этот email уже используется.</translation>
       <translation lang="bo">གློག་འཕྲིན་འདི་ད་སྔ་ནས་འདིའི་ནང་བཀོལ་སྤྱོད་བྱས་འདུག</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Delete_Account_Error">
       <translation lang="en">Sorry, we were unable to delete your account.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu supprimer votre compte.</translation>
+      <translation lang="ru">К сожалению, удалить ваш аккаунт не удаётся.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་ཁྱེད་ཀྱི་ཐོ་གཞུང་བསུབ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Account_Message_Delete_Account_Success">
       <translation lang="en">Your account was deleted successfully.</translation>
       <translation lang="fr">Votre compte a été supprimé avec succès.</translation>
+      <translation lang="ru">Ваш аккаунт успешно удалён.</translation>
       <translation lang="bo">ཁྱེད་ཀྱི་ཐོ་གཞུང་བདེ་ལེགས་ངང་བསུབས་ཡོད།</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Verse_Of_The_Day_Title">
@@ -3742,6 +3834,7 @@
       <translation lang="id">Pesan</translation>
       <translation lang="nl">Berichten</translation>
       <translation lang="ta">தகவல்கள்</translation>
+      <translation lang="ru">Сообщения</translation>
       <translation lang="bo">འཕྲིན་ཐུང་།</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Channel_Name_Verse_Of_The_Day">
@@ -3751,6 +3844,7 @@
       <translation lang="id">Nats Harian</translation>
       <translation lang="nl">Vers van de dag</translation>
       <translation lang="ta">இன்றைய வசனம்</translation>
+      <translation lang="ru">Стих дня</translation>
       <translation lang="bo">ཉིན་དེའི་ཤོ་ལོ་ཀ</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Channel_Name_Daily_Reminder">
@@ -3760,6 +3854,7 @@
       <translation lang="id">Peringatan Harian</translation>
       <translation lang="nl">Dagelijkse herinnering</translation>
       <translation lang="ta">இன்றைய வேத வாசிப்பு</translation>
+      <translation lang="ru">Ежедневное напоминание</translation>
       <translation lang="bo">ཉིན་རེའི་དྲན་གསོ།</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Channel_Name_Images">
@@ -3770,6 +3865,7 @@
       <translation lang="id">Gambar</translation>
       <translation lang="nl">Afbeeldingen</translation>
       <translation lang="ta">படங்கள்</translation>
+      <translation lang="ru">Изображения</translation>
       <translation lang="bo">འདྲ་པར་ཁག</translation>
     </translation-mapping>
     <translation-mapping id="Notification_Please_Allow">
@@ -3866,6 +3962,7 @@
       <translation lang="ar">تم حفظ الفيديو</translation>
       <translation lang="nl">Video opgeslagen</translation>
       <translation lang="ta">வசனக் காணொளி சேர்த்துவைக்கப்பட்டது</translation>
+      <translation lang="ru">Видео сохранено</translation>
       <translation lang="bo">བརྙན་ཉར་ཡོད།</translation>
     </translation-mapping>
     <translation-mapping id="Text_On_Image_Save_Image">
@@ -3875,6 +3972,7 @@
       <translation lang="ar">حفظ الصورة</translation>
       <translation lang="nl">Afbeelding opslaan</translation>
       <translation lang="ta">வசனப் படத்தை சேர்த்துவை</translation>
+      <translation lang="ru">Сохранить картинку</translation>
       <translation lang="bo">འདྲ་པར་ཉོར།</translation>
     </translation-mapping>
     <translation-mapping id="Text_On_Image_Save_Video">
@@ -3884,6 +3982,7 @@
       <translation lang="ar">حفظ الفيديو</translation>
       <translation lang="nl">Video opslaan</translation>
       <translation lang="ta">வசனக் காணொளியைச் சேர்த்துவை</translation>
+      <translation lang="ru">Сохранить видео</translation>
       <translation lang="bo">བརྙན་ཉོར།</translation>
     </translation-mapping>
     <translation-mapping id="Crop_Image_Title">
@@ -3893,6 +3992,7 @@
       <translation lang="ar">قص من الصورة</translation>
       <translation lang="nl">Afbeelding bijsnijden</translation>
       <translation lang="ta">வசனப் படத்தை சீர்படுத்துதல்</translation>
+      <translation lang="ru">Обрезать картинку</translation>
       <translation lang="bo">འདྲ་པར་གཏུབ།</translation>
     </translation-mapping>
     <translation-mapping id="Edit_Text_On_Image_Title">
@@ -3902,6 +4002,7 @@
       <translation lang="ar">تعديل النص</translation>
       <translation lang="nl">Tekst bewerken</translation>
       <translation lang="ta">வசனத்தை சீர்படுத்துதல்</translation>
+      <translation lang="ru">Редактировать текст</translation>
       <translation lang="bo">ཡིག་ཆ་སྒྲིག</translation>
     </translation-mapping>
     <translation-mapping id="Book_Group_OT">
@@ -3975,6 +4076,7 @@
     <translation-mapping id="Layout_Screen_Title">
       <translation lang="en">Select Language &amp; Layout</translation>
       <translation lang="fr">Langue et agencement</translation>
+      <translation lang="ru">Выберите язык и разметку</translation>
     </translation-mapping>
     <translation-mapping id="Layout_Single_Pane">
       <translation lang="en">Single Pane</translation>
@@ -4120,6 +4222,14 @@
       <translation lang="ko">추가 (\\)</translation>
       <translation lang="bo">གཞན། (\\)</translation>
     </translation-mapping>
+    <translation-mapping id="Quiz_Score_Page_Message_Before">
+      <translation lang="en">You scored</translation>
+      <translation lang="fr">Vous avez obtenu un score de</translation>
+    </translation-mapping>
+    <translation-mapping id="Quiz_Score_Page_Message_After">
+      <translation lang="en">out of %n% questions</translation>
+      <translation lang="fr">sur %n% questions</translation>
+    </translation-mapping>
     <translation-mapping id="Text_Copied">
       <translation lang="en">Text copied</translation>
       <translation lang="fr">Texte copié</translation>
@@ -4218,21 +4328,25 @@
     <translation-mapping id="User_Missing_Fields">
       <translation lang="en">Please complete the following fields to continue:</translation>
       <translation lang="fr">Veuillez remplir les champs suivants pour continuer :</translation>
+      <translation lang="ru">Чтобы продолжить, заполните следующие поля:</translation>
       <translation lang="bo">རྒྱུན་མཐུད་པར་གཤམ་བཀོད་ཀྱི་ལས་ཚན་རྣམས་ཆ་ཚང་བསྒྲུབ་རོགས།</translation>
     </translation-mapping>
     <translation-mapping id="User_Check_Internet">
       <translation lang="en">Please check that you have an internet connection, then press the button again to continue.</translation>
       <translation lang="fr">Veuillez vérifier que vous disposez d&apos;une connexion Internet, puis appuyez à nouveau sur le bouton pour continuer.</translation>
+      <translation lang="ru">Проверьте ваше соединение с интернетом и нажмите ещё раз, чтобы продолжить.</translation>
       <translation lang="bo">ཁྱེད་རང་དྲ་རྒྱར་མཐུད་ཡོད་མེད་བལྟ་རོགས། དེ་ནས་གནོན་ཐེབས་ལ་བསྣུན་ཏེ་མུ་མཐུད།</translation>
     </translation-mapping>
     <translation-mapping id="User_Database_Sign_In_Error">
       <translation lang="en">Sorry, we were unable to sign in to the database server.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu nous connecter au serveur de la base de données.</translation>
+      <translation lang="ru">К сожалению, войти на сервер базы данных не удалось.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་གཞི་གྲངས་བརྟེན་གནས་ཀྱི་གསོག་མཛོད་ནང་ནང་འཛུལ་བྱ་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="User_Database_Add_User_Error">
       <translation lang="en">Sorry, we were unable to add this information to the online database.</translation>
       <translation lang="fr">Désolé, nous n&apos;avons pas pu ajouter cette information à la base de données en ligne.</translation>
+      <translation lang="ru">К сожалению, добавить информацию к базе данных онлайн не удалось.</translation>
       <translation lang="bo">དགོངས་དག ང་ཚོས་གནས་ཚུལ་འདི་དྲ་ཐོག་གཞི་གྲངས་རྟེན་གནས་ནང་བསྣུན་ཐུབ་མ་སོང་།</translation>
     </translation-mapping>
     <translation-mapping id="Language_en">
@@ -4350,6 +4464,7 @@
       <translation lang="en">Dutch</translation>
       <translation lang="fr">Néerlandais</translation>
       <translation lang="nl">Nederlands</translation>
+      <translation lang="ru">Голландский</translation>
       <translation lang="bo">ཌ་ཆིའི་སྐད་ཡིག</translation>
     </translation-mapping>
     <translation-mapping id="Language_pt">
@@ -4670,6 +4785,7 @@
       <translation lang="ar">هذا الجهاز ليس لديه أذن لإستخدام هذا التطبيق</translation>
       <translation lang="nl">Dit apparaat heeft geen toestemming om deze app te gebruiken.</translation>
       <translation lang="ta">இந்த செயலியை பயன்படுத்த இந்த சாதனத்தில் அனுமதி கொடுக்கப்படவில்லை</translation>
+      <translation lang="ru">Устройство не имеет разрешения использовать это приложение</translation>
       <translation lang="bo">མཉེན་ཆས་འདི་སྒྲིག་ཆས་འདིའི་ནང་བཀོལ་སྤྱོད་ཀྱི་ཆོག་མཆན་མི་འདུག</translation>
     </translation-mapping>
     <translation-mapping id="iOS_Photo_Library_Usage_Description">
@@ -4680,6 +4796,7 @@
       <translation lang="ar">يمكننا منحك الإختيار لصورة الخلفية</translation>
       <translation lang="nl">zodat we je een keuze aan achtergrondafbeeldingen kunnen geven</translation>
       <translation lang="ta">அதனால் இந்தப் படங்களை உங்களுக்குத் தருகிறோம்</translation>
+      <translation lang="ru">чтобы предоставить вам выбор фоновых изображений</translation>
       <translation lang="bo">དེར་བརྟེན་ང་ཚོས་ཁྱེད་ལ་རྒྱབ་ལྗོངས་ཀྱི་འདྲ་པར་ཁག་གི་འདེམ་ཁ་ཞིག་སྤྲད་ཆོག</translation>
     </translation-mapping>
     <translation-mapping id="iOS_Photo_Library_Add_Usage_Description">
